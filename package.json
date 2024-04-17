@@ -3,7 +3,7 @@
   "name": "Wave-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
-  "main": "index.js",
+  "main": "index.js",  
   "engines": {
     "node": "20.2.0"
   },
@@ -13,10 +13,10 @@
   "author": "Bealth Guy",
   "license": "GPL-3.0",
   "dependencies": {
-    "object-query-string": "^1.0.0",
+    "object-query-string": "^1.2.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^6.5.0",
+    "@whiskeysockets/baileys": "latest",
     "awesome-phonenumber": "^5.9.0",
     "axios": "^1.6.3",
     "chalk": "^4.1.2",
